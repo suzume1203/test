@@ -1,0 +1,42 @@
+package tw.suzume.filter;
+
+import java.io.IOException;
+
+import jakarta.servlet.Filter;
+import jakarta.servlet.FilterChain;
+import jakarta.servlet.FilterConfig;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.ServletRequest;
+import jakarta.servlet.ServletResponse;
+
+public class TestServletFilterExcuteEx1 implements Filter {
+
+	private ServletContext context;
+	private Integer count;
+
+	@Override
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+			throws IOException, ServletException {
+		response.setContentType("text/html;charset=utf-8");
+//		count = (Integer) context.getAttribute("count");
+		if ((count=(Integer) context.getAttribute("count"))==null) {
+			count = 0;
+		}
+		response.getWriter().write("Have been visted "+count+++" times.<br/>");
+		context.setAttribute("count", count);
+		chain.doFilter(request, response);
+		response.getWriter().write("Done.");
+	}
+
+	@Override
+	public void destroy() {
+		context = null;
+	}
+
+	@Override
+	public void init(FilterConfig filterConfig) throws ServletException {
+		context = filterConfig.getServletContext();
+	}
+
+}

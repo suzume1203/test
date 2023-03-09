@@ -1,0 +1,7 @@
+package tw.suzume.sharedresources;
+
+import jakarta.servlet.ServletContextListener;
+
+public class TestListenerAttr implements ServletContextListener {
+
+}

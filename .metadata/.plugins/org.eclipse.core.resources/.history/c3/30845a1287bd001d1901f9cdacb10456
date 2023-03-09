@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ include file = "TestShoppingCartPage.jsp" %>
+<jsp:useBean id="myCart" class="tw.suzume.javabean.TestShoppongCartBean" scope="session"/>
+<jsp:setProperty name="myCart" property="item" param="products"/>
+<jsp:setProperty name="myCart" property="submit" param="submit"/>
+<!DOCTYPE html>
+<html>
+<% myCart.processReq(); %>
+<head>
+<meta charset="UTF-8">
+<title>TSCProcess</title>
+</head>
+<body>
+your cart : 
+<br/>
+<%
+for(String item:myCart.getItems()){
+	out.write(item);
+}
+%>
+</body>
+</html>

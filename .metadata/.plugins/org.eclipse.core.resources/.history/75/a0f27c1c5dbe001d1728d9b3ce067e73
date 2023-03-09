@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TestELAttr</title>
+</head>
+<body>
+<!--  
+	My Truck:
+	<br />
+	${myTruck.toString()}
+	<br />
+	ID: ${myTruck.id}
+	<br />
+	Brand: ${myTruck.brand}
+	<br />
+	Size: ${myTruck.size}
+	<br />
+	Price: ${myTruck.price}
+	<br /> -->
+	<hr/>
+	<c:forEach items="${myTruck}" var="truck">
+		id: ${truck.id}<br/>
+		brand: ${truck.brand}<br/>
+		size: ${truck.size}<br/>
+		price: ${truck.price}<br/>
+	</c:forEach>
+</body>
+</html>

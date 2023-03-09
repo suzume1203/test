@@ -1,0 +1,11 @@
+package tw.suzume.javabean;
+
+import java.io.Serializable;
+
+public class TestShoppongCartBean implements Serializable {
+
+	public TestShoppongCartBean() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

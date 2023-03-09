@@ -1,0 +1,38 @@
+package tw.suzume.dao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import tw.suzume.javabean.TestTruckBean;
+
+public class TruckDao implements ITruckDAO {
+
+	private Connection conn;
+
+	public TruckDao() {
+	}
+	
+	public TruckDao(Connection conn) {
+		this.conn = conn;
+	}
+
+	@Override
+	public ArrayList<TestTruckBean> queryAll() throws SQLException {
+		
+		return null;
+	}
+
+	@Override
+	public TestTruckBean queryById(int id) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insert(TestTruckBean truck) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+}

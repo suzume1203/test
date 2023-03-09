@@ -1,0 +1,16 @@
+package tw.suzume.sharedresources;
+
+import jakarta.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContextListener;
+
+public class TestContextListener implements ServletContextListener {
+
+	@Override
+	public void contextDestroyed(ServletContextEvent sce) {
+	}
+
+	@Override
+	public void contextInitialized(ServletContextEvent sce) {
+	}
+
+}

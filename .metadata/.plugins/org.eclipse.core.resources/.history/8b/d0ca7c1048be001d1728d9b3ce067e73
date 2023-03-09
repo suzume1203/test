@@ -1,0 +1,69 @@
+package tw.suzume.jdbc;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import javax.sql.DataSource;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import tw.suzume.dao.TruckDao;
+import tw.suzume.javabean.Truck;
+import tw.suzume.util.Printer;
+
+public class TestJDBCConnEx3 extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private Printer out;
+	private Connection conn;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		processAction(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		processAction(request, response);
+	}
+
+	private void createConn2() throws NamingException, SQLException {
+		InitialContext context = new InitialContext();
+		DataSource ds = (DataSource) context.lookup("java:comp/env/connectSqlServer/OrderService");
+		conn = ds.getConnection();
+
+	}
+
+	private void closeConn() throws SQLException {
+		if (conn != null) {
+			conn.close();
+		}
+
+	}
+
+	private void processAction(HttpServletRequest request, HttpServletResponse response) {
+		try {
+			createConn2();
+			TruckDao truckDao = new TruckDao(conn);
+//			String brand = request.getParameter("brand");
+//			String size = request.getParameter("size");
+//			String price = request.getParameter("price");
+
+//			truckDao.insert(new Truck(brand, size, Integer.parseInt(price)));
+			truckDao.insert(new Truck(request.getParameter("brand"), request.getParameter("size"),
+					Integer.parseInt(request.getParameter("price"))));
+
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

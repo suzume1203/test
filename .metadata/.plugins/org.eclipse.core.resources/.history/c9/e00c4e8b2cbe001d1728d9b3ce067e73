@@ -1,0 +1,13 @@
+package tw.suzume.dao;
+
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import tw.suzume.javabean.TestTruckBean;
+
+public interface ITruckDAO {
+	
+	public ArrayList<TestTruckBean> queryAll() throws SQLException;
+	public TestTruckBean queryById(int id) throws SQLException;
+	public void insert(TestTruckBean truck) throws SQLException;
+}

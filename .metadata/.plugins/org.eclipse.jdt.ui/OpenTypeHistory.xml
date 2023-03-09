@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=JspProject/C:\/Action\/apache-tomcat-10.0.13\/lib\/servlet-api.jar=/owner.project.facets=/jst.web=/=/javadoc_location=/https:\/\/jakarta.ee\/specifications\/servlet\/5.0\/apidocs\/=/&lt;jakarta.servlet(GenericServlet.class[GenericServlet" modifiers="1057" timestamp="1677638787123"/>
+    <typeInfo handle="=JspProject/C:\/Action\/apache-tomcat-10.0.13\/lib\/servlet-api.jar=/owner.project.facets=/jst.web=/=/javadoc_location=/https:\/\/jakarta.ee\/specifications\/servlet\/5.0\/apidocs\/=/&lt;jakarta.servlet(ServletContext.class[ServletContext" modifiers="1537" timestamp="1677638787123"/>
+    <typeInfo handle="=JspProject/C:\/Action\/apache-tomcat-10.0.13\/lib\/servlet-api.jar=/owner.project.facets=/jst.web=/=/javadoc_location=/https:\/\/jakarta.ee\/specifications\/servlet\/5.0\/apidocs\/=/&lt;jakarta.servlet(ServletContextListener.class[ServletContextListener" modifiers="1537" timestamp="1677638787123"/>
+    <typeInfo handle="=JspProject/C:\/Action\/apache-tomcat-10.0.13\/lib\/servlet-api.jar=/owner.project.facets=/jst.web=/=/javadoc_location=/https:\/\/jakarta.ee\/specifications\/servlet\/5.0\/apidocs\/=/&lt;jakarta.servlet(Filter.class[Filter" modifiers="1537" timestamp="1677638787123"/>
+    <typeInfo handle="=JspProject/C:\/Action\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1643688666000"/>
+    <typeInfo handle="=JspProject/src\/main\/java&lt;tw.suzume.dao{ITruckDAO.java[ITruckDAO" modifiers="513" timestamp="1678333404335"/>
+    <typeInfo handle="=JspProject/C:\/Action\/apache-tomcat-10.0.13\/lib\/jsp-api.jar=/owner.project.facets=/jst.web=/=/javadoc_location=/https:\/\/jakarta.ee\/specifications\/pages\/3.0\/apidocs\/=/&lt;jakarta.servlet.jsp.tagext(IterationTag.class[IterationTag" modifiers="1537" timestamp="1677638787121"/>
+</typeInfoHistroy>

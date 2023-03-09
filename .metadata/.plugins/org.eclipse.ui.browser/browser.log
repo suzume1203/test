@@ -1,0 +1,29 @@
+
+3月 07, 2023 12:05:24.962 NEW SESSION
+3月 07, 2023 12:05:24.962 [15608:9272:0307/120524.961:ERROR:api_wrapper.cc(102)] Calling IsEnclaveTypeSupported, error code 0
+3月 07, 2023 12:05:24.971 [15608:9272:0307/120524.970:ERROR:assistance_home_client.cc(32)] File path C:\Users\Student\AppData\Local\Microsoft\Edge\User Data\Default
+3月 07, 2023 12:05:25.82 [15608:9272:0307/120525.082:ERROR:edge_auth_errors.cc(484)] EDGE_IDENTITY: Get Default OS Account failed: Error: Primary Error: kImplicitSignInFailure, Secondary Error: kAccountProviderFetchError, Platform error: 0, Error string: 
+3月 07, 2023 12:05:25.83 
+3月 07, 2023 12:05:27.99 [15608:9272:0307/120527.098:ERROR:device_event_log_impl.cc(218)] [12:05:27.095] USB: usb_service_win.cc:415 Could not read device interface GUIDs: 系統找不到指定的檔案。 (0x2)
+3月 07, 2023 12:05:30.664 [15608:9272:0307/120530.663:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+3月 07, 2023 12:05:33.745 [15608:9272:0307/120533.745:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+3月 07, 2023 12:06:13.721 [12028:14872:0307/120613.720:ERROR:device_event_log_impl.cc(218)] [12:06:13.721] USB: usb_service_win.cc:415 Could not read device interface GUIDs: 系統找不到指定的檔案。 (0x2)
+3月 07, 2023 13:59:47.448 [11536:13480:0307/135947.448:ERROR:device_event_log_impl.cc(218)] [13:59:47.447] USB: usb_service_win.cc:415 Could not read device interface GUIDs: 系統找不到指定的檔案。 (0x2)
+3月 07, 2023 14:00:40.180 [15608:9272:0307/140040.179:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+3月 07, 2023 14:00:42.335 [15608:9272:0307/140042.334:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+3月 07, 2023 14:00:59.780 [15608:9272:0307/140059.779:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+3月 07, 2023 14:01:01.230 [15608:9272:0307/140101.229:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+3月 07, 2023 14:08:23.619 [4584:18028:0307/140823.618:ERROR:device_event_log_impl.cc(218)] [14:08:23.619] USB: usb_service_win.cc:415 Could not read device interface GUIDs: 系統找不到指定的檔案。 (0x2)
+3月 07, 2023 15:33:35.22 [2024:16708:0307/153335.022:ERROR:device_event_log_impl.cc(218)] [15:33:35.023] USB: usb_service_win.cc:415 Could not read device interface GUIDs: 系統找不到指定的檔案。 (0x2)
+3月 07, 2023 15:35:25.393 [17216:10852:0307/153525.393:ERROR:device_event_log_impl.cc(218)] [15:35:25.392] USB: usb_service_win.cc:415 Could not read device interface GUIDs: 系統找不到指定的檔案。 (0x2)
+
+3月 08, 2023 09:30:43.810 NEW SESSION
+3月 08, 2023 09:30:43.810 [16168:11288:0308/093043.809:ERROR:device_event_log_impl.cc(218)] [09:30:43.810] USB: usb_service_win.cc:415 Could not read device interface GUIDs: 系統找不到指定的檔案。 (0x2)
+3月 08, 2023 10:01:58.332 [16168:11288:0308/100158.332:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+3月 08, 2023 10:14:29.232 [16168:11288:0308/101429.232:ERROR:device_event_log_impl.cc(218)] [10:14:29.233] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 元素找不到。 (0x490)
+3月 08, 2023 11:02:18.505 [16168:11288:0308/110218.504:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+3月 08, 2023 11:05:45.886 [16168:11288:0308/110545.885:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+3月 08, 2023 13:09:23.865 [16168:11288:0308/130923.865:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+3月 08, 2023 14:27:52.673 [16168:11288:0308/142752.673:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+3月 08, 2023 14:28:09.591 [16168:11288:0308/142809.589:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+3月 08, 2023 18:27:47.321 [16168:11288:0308/182747.320:ERROR:gpu_process_host.cc(952)] GPU process exited unexpectedly: exit_code=34

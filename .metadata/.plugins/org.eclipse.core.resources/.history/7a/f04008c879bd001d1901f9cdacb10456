@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:useBean id="os" class="tw.suzume.javabean.TestOperateBean" scope="page" />
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test OS Process</title>
+</head>
+<body>
+
+</body>
+</html>

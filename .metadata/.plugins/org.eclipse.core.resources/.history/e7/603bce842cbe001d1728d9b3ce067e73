@@ -1,0 +1,32 @@
+package tw.suzume.dao;
+
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import tw.suzume.javabean.TestTruckBean;
+
+public class TruckDao implements ITruckDAO {
+
+	public TruckDao() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public ArrayList<TestTruckBean> queryAll() throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public TestTruckBean queryById(int id) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insert(TestTruckBean truck) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+}

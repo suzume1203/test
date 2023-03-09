@@ -1,0 +1,56 @@
+package tw.suzume.jdbc;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import tw.suzume.util.Printer;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class TestJDBCConnEx1 extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private Printer out;
+	private Connection conn;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		processAction(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		processAction(request, response);
+	}
+	
+	private void createConn() throws ClassNotFoundException, SQLException {
+		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+		String urlStr = "jdbc:sqlserver://localhost:1433;databaseName=SuzuPower;user=watcher;password=P@ssw0rd;"
+				+ " encrypt=true;trustServerCertificate=true";
+		conn = DriverManager.getConnection(urlStr);
+	}
+	public TestJDBCConnEx1() {
+		// TODO Auto-generated constructor stub
+	}private void closeConn() {
+		conn.close();
+	}
+
+	private void processAction(HttpServletRequest request, HttpServletResponse response) {
+		try {
+			createConn();
+			out = new Printer(response);
+			
+			out.write("conn status:"+!conn.isClosed()+"<br/>");
+			out.close();
+			closeConn();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

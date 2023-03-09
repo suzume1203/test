@@ -1,0 +1,11 @@
+package tw.suzume.javabean;
+
+import java.io.Serializable;
+
+public class TestOrderSystem implements Serializable {
+
+	public TestOrderSystem() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSTL</title>
+</head>
+<body>
+123
+<c:set var="product">iPhone</c:set>
+<c:set var="price" value="5200"/>
+<c:out value="Product Name : ${product}" />
+<c:out value="Price : ${price}" />
+<c:if test="${price>3000}">true</c:if>
+<c:choose>
+<c:when>
+
+</c:choose>
+</body>
+</html>

@@ -1,0 +1,5 @@
+package tw.suzume.dao;
+
+public interface ITruckDAO {
+
+}

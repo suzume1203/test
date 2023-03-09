@@ -1,0 +1,22 @@
+1678153223478	Extract local variable 'out'
+1678154527374	Rename type 'DAO'
+1678156403459	Delete element
+1678156501907	Extract local variable 'session'
+1678161601693	Extract local variable 'cookieToClient'
+1678167644975	Extract local variable 'cookies'
+1678170795488	Delete element
+1678173702437	Extract local variable 'session'
+1678242069821	Move 'TestEX.jsp' to 'error'
+1678242337519	Move 'TestEX.jsp' to 'webapp'
+1678242406778	Move 'TestEX.jsp' to 'error'
+1678243153238	Move 'TestErrorPage.jsp' to 'webapp'
+1678243687302	Rename resource 'haedpage'
+1678256151813	Move 'TestOS.jsp' to 'OrderSystem'
+1678265066915	Extract local variable 'conn'
+1678333404371	Rename type 'TestTruckBean'
+1678340002963	Copy compilation unit
+1678340716310	Extract local variable 'truckDao'
+1678344893639	Copy compilation unit
+1678345095321	Extract local variable 'myTruck'
+1678349506836	Delete elements
+1678350525512	Move 'TestJSTL.jsp' to 'webapp'
